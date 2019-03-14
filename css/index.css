@@ -249,7 +249,7 @@ p {
 
 	@media all and (max-width: 500px) {
 		.container {
-			width: auto;
+			max-width: 500px;
 			border: 1px solid red;
 			height: auto;
 		}
@@ -263,15 +263,72 @@ p {
 		.nav-bar {
 			display: flex;
 			flex-direction: column;
-			width: 98%;
-			margin-left: 10px;
+			width: 100%;
 		}
 		.nav-section{
 			position: absolute;
-			width: 100%;
+			vertical-align: middle;
+			width: 98%;
 		}
 		.underline {
 			border-bottom: 1px solid gray;
 			width: 100%;
 		}
+		.bigTxt {
+			margin-left: 10px;
+			margin-top: 200px;
+		}
+		.about {
+			display: flex;
+			flex-direction: column;
+			margin-top: 30px;
+			margin-bottom: 40px;
+		}
+		.features1 {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 40px;
+			margin-left: 25px;
+			width: 90%;
+			margin-top: 20px;	
+		}
+		.features2 {
+			display: flex;
+			flex-direction: column;
+			margin-top: 20px;
+			margin-left: 25px;
+			margin-bottom: 40px;
+			width: 90%;
+			}
+			.b1 {
+				margin-left: 25px; 
+				display: flex;
+				flex-direction: column;
+				margin-top: 30px;
+				margin-bottom: 40px;
+				width: 90%;
+			}
+			
+			.b2 {
+				margin-left: 25px; 
+				flex-direction: column;
+				display: flex;
+				flex-direction: column;
+				margin-top: 30px;
+				margin-bottom: 40px;
+				width: 90%;
+			}
+			
+			.b3 {
+				margin-left: 25px; 
+				flex-direction: column;
+				display: flex;
+				margin-top: 30px;
+				margin-bottom: 40px;
+				width: 90%;
+			}
+			footer {
+				margin-left: 25px;
+				margin-top: 30px;
+			}
 	}
