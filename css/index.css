@@ -260,7 +260,6 @@ p {
 			display: inline-block;	
 			margin: 0auto;
 		}
-
 		.nav-bar {
 			display: flex;
 			flex-direction: column;
